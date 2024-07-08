@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:GridLengthUserControl"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <StackPanel Orientation="Horizontal" Margin="10">
+        <local:MyUserControl Width="200" IconColumnWidth="50" Margin="5"/>
+        <local:MyUserControl Width="200" IconColumnWidth="75" Margin="5"/>
+    </StackPanel>
 </Window>
